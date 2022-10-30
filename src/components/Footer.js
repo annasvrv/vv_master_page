@@ -36,6 +36,51 @@ export default function Footer() {
           </ul>
         </li>
       </ul>
+      <section className="mt-5">
+        <div className="text-center m-2 p-3 d-flex justify-content-center">
+          <a
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-branding-outline-footer social-footer me-3"
+            title="LinkedIn profile"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-branding-outline-footer social-footer me-3"
+            title="GitHub profile"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-branding-outline-footer social-footer me-3"
+            title="Instagram profile"
+          >
+            <i className="fa-brands fa-square-instagram"></i>
+          </a>
+          <a
+            href="/"
+            target="_blank"
+            rel="noreferrer"
+            className="btn btn-branding-outline-footer social-footer"
+            title="Twitter profile"
+          >
+            <i className="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+
+        <p className=" text-center" style={{ fontSize: `14px` }}>
+          <span>&copy;</span> 2007-2022
+          VV-MasteR. All rights reserved.
+        </p>
+      </section>
     </div>
   );
 }

@@ -1,9 +1,14 @@
 .Footer {
-  padding: 20px 0;
+  padding: 20px 0 5px;
   color: rgb(240, 248, 255);
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .Footer .footerMenu {
   margin: 0;
+}
+
+.Footer .social-footer {
+  color: rgb(240, 248, 255);
+  /* border: 1px solid white; */
 }
