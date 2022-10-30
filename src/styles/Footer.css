@@ -1,0 +1,9 @@
+.Footer {
+  padding: 20px 0;
+  color: rgb(240, 248, 255);
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Footer .footerMenu {
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+.App {
+  background-color: rgb(2, 18, 40);
+  background-image: url(../styles/server_room_4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-blend-mode: color-dodge; */
+}
+
+.App .background-cover {
+  /* background: rgba(2, 18, 40, 0.5); */
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.App-header {
+  position: fixed;
+}
+
+.App-main {
+  padding-top: 120px;
+}

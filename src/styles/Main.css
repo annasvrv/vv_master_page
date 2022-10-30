@@ -1,0 +1,22 @@
+.Main {
+  padding-bottom: 150px;
+  color: rgb(240, 248, 255);
+}
+
+.Main .hero {
+  /* border: 15px solid rgba(7, 7, 7, 0.6); */
+  border-radius: 30px;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  /* background-color: rgba(240, 240, 240, 0.4); */
+}
+
+.Main .advertImg {
+  margin: 20px;
+  width: 640px;
+  border-radius: 5px;
+}
+
+.Main .advert-text {
+  font-size: 72px;
+  text-align: center;
+}
