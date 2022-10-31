@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../styles/logo.png";
+import logo from "../styles/VV_master_logo1.png";
 
 import "../styles/Header.css";
 
