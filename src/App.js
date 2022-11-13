@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Hosting from "./components/Hosting";
 import Services from "./components/Services";
+import Other from "./components/Other";
 import "./styles/App.css";
 
 export default function App(props) {
@@ -18,11 +19,13 @@ export default function App(props) {
           </header>
           <section className="App-main">
             <Routes>
+              <Route exact path="/" element={<Main />} />
               <Route exact path="/Main" element={<Main />} />
               <Route exact path="/About" element={<About />} />
               <Route exact path="/Hosting" element={<Hosting />} />
               <Route exact path="/Services" element={<Services />} />
               <Route exact path="/Contact" element={<Contact />} />
+              <Route element={<Other />} />
             </Routes>
           </section>
           <footer className="App-footer">
