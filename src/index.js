@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.js";
 import reportWebVitals from "./reportWebVitals";
 
 let menu = {
-  Home: "/Main",
+  Main: "/Main",
   About: "/About",
   Hosting: "/Hosting",
   Services: "/Services",
@@ -18,7 +18,7 @@ let menu = {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App navMenu ={menu}/>
+    <App navMenu={menu} />
   </React.StrictMode>
 );
 
