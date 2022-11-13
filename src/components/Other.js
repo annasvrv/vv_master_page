@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Other.css";
 
 export default function Other() {
   return (
