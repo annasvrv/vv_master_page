@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 
 import "../styles/Header.css";
 
-export default function Header(props) {
-  let menu = props.navMenu;
+export default function Header() {
+  // let menu = props.navMenu;
   const location = useLocation();
   const { pathname } = location;
   const splitLocation = pathname.split("/");
@@ -42,12 +42,12 @@ export default function Header(props) {
             </form> */}
 
             <ul className="navbar-nav mb-2 mb-lg-0">
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <a
                   className={
                     splitLocation[1] === "Main" ? "nav-link active" : "nav-link"
                   }
-                  href="/Home"
+                  href="/Main"
                 >
                   Home
                 </a>
@@ -99,9 +99,9 @@ export default function Header(props) {
                 >
                   Contact
                 </a>
-              </li> */}
+              </li>
 
-              {Object.keys(menu).map((elem) => {
+              {/* {Object.keys(menu).map((elem) => {
                 return (
                   <li className="nav-item">
                     <a
@@ -116,7 +116,7 @@ export default function Header(props) {
                     </a>
                   </li>
                 );
-              })}
+              })} */}
             </ul>
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
