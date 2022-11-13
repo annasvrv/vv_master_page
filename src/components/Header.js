@@ -1,14 +1,16 @@
 import React from "react";
 import logo from "../styles/VV_master_logo1.png";
 
+
 import "../styles/Header.css";
 
-export default function Header() {
+export default function Header(props) {
+  let menu = props.navMenu;
   return (
     <div className="Header">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="./Main">
             <img src={logo} alt="logo" className="logo" />
           </a>
           <button
@@ -34,9 +36,22 @@ export default function Header() {
                 Search
               </button>
             </form>
-            <ul className="navbar-nav mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" href="/">
+           
+              <ul className="navbar-nav mb-2 mb-lg-0">
+                {Object.keys(menu).map((elem) => {
+                  return (
+                    <li className="nav-item">
+                      <a className="nav-link" href={menu[elem]}>
+                        {elem}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+          
+
+            {/* <li className="nav-item">
+                <a className="nav-link active" href={menu}>
                   Home
                 </a>
               </li>
@@ -59,9 +74,7 @@ export default function Header() {
                 <a className="nav-link" href="/">
                   Contact
                 </a>
-              </li>
-            </ul>
-
+              </li> */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="/">

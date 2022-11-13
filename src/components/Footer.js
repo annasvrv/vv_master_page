@@ -11,7 +11,7 @@ export default function Footer() {
           <ul>
             <li>About</li>
             <li>Contact</li>
-            <li>Terms of Srvice</li>
+            <li>Terms of Service</li>
             <li>Site Map</li>
           </ul>
         </li>
