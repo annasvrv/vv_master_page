@@ -20,15 +20,11 @@ export default function App(props) {
           <section className="App-main">
             <Routes>
               <Route exact path="/" element={<Main />} />
-              <Route exact path="./components/Main" element={<Main />} />
-              <Route exact path="./components/About" element={<About />} />
-              <Route exact path="./components/Hosting" element={<Hosting />} />
-              <Route
-                exact
-                path="./components/Services"
-                element={<Services />}
-              />
-              <Route exact path="./components/Contact" element={<Contact />} />
+              <Route exact path="/Main" element={<Main />} />
+              <Route exact path="/About" element={<About />} />
+              <Route exact path="/Hosting" element={<Hosting />} />
+              <Route exact path="/Services" element={<Services />} />
+              <Route exact path="/Contact" element={<Contact />} />
               <Route path="*" element={<Other />} />
             </Routes>
           </section>
