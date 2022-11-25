@@ -7,8 +7,8 @@ export default function Footer() {
     <div className="Footer">
       <ul className="footerMenu d-flex justify-content-evenly">
         <li>
-          Company
-          <ul>
+          <span className="footerListHeader">Company</span>
+          <ul className="subList">
             <li>About</li>
             <li>Contact</li>
             <li>Terms of Service</li>
@@ -16,8 +16,8 @@ export default function Footer() {
           </ul>
         </li>
         <li>
-          Products
-          <ul>
+          <span className="footerListHeader">Products</span>
+          <ul className="subList">
             <li>Shared Hosting</li>
             <li>WordPress Hosting</li>
             <li> VPS Hosting</li>
@@ -27,8 +27,8 @@ export default function Footer() {
           </ul>
         </li>
         <li>
-          Services
-          <ul>
+          <span className="footerListHeader">Services</span>
+          <ul className="subList">
             <li>Hosting Solutions</li>
             <li>Domains</li>
             <li>SSL Sertificates</li>
@@ -77,8 +77,7 @@ export default function Footer() {
         </div>
 
         <p className=" text-center" style={{ fontSize: `14px` }}>
-          <span>&copy;</span> 2007-2022
-          VV-MasteR. All rights reserved.
+          <span>&copy;</span> 2007-2022 VV-MasteR. All rights reserved.
         </p>
       </section>
     </div>

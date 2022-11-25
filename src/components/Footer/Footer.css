@@ -6,6 +6,20 @@
 
 .Footer .footerMenu {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Footer .footerListHeader {
+  font-weight: 600;
+  color: rgba(240, 248, 255, 0.7);
+}
+
+.Footer .subList {
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  color: rgba(240, 248, 255, 0.7);
 }
 
 .Footer .social-footer {
