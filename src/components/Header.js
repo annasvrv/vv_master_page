@@ -125,10 +125,12 @@ export default function Header() {
                   Login
                 </a>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link" href="/">
-                  UA
-                </a>
+                <select name="" id="" className="select">
+                  <option value="UA">UA</option>
+                  <option value="EN">EN</option>
+                </select>
               </li>
             </ul>
           </div>
