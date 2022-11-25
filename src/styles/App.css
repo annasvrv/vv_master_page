@@ -1,5 +1,7 @@
+
+
 .App {
-  background-color: rgb(2, 18, 40);
+  background-color: var(--backround-color);
   background-image: url(../styles/server_room_4.jpg);
   background-position: center;
   background-repeat: no-repeat;

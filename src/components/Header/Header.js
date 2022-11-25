@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../styles/VV_master_logo1.png";
+import logo from "./VV_master_logo1.png";
 import { useLocation } from "react-router-dom";
 
-import "../styles/Header.css";
+import "./Header.css";
 
 export default function Header() {
   // let menu = props.navMenu;

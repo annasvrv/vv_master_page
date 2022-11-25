@@ -1,6 +1,6 @@
 .Main {
   padding-bottom: 150px;
-  color: rgb(240, 248, 255);
+  color: var(--text-color)
 }
 
 .Main .hero {
@@ -19,4 +19,8 @@
 .Main .advert-text {
   font-size: 72px;
   text-align: center;
+}
+
+.Main button {
+  margin: 0 auto;
 }

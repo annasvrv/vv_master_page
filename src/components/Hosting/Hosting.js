@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Hosting.css";
+import "./Hosting.css";
 
 export default function Hosting() {
   return (

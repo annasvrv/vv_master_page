@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Main.css";
+import "./Main.css";
 
 export default function Main() {
   return (
@@ -7,7 +7,7 @@ export default function Main() {
       <div className="hero container">
         <div className="row">
           <div className="advert-text">Start your server space</div>
-          <button className="btn btn-dark">Apply now</button>
+          <button className="btn btn-dark w-25">Apply now</button>
         </div>
       </div>
     </div>

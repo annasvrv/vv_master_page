@@ -8,7 +8,7 @@
   padding: 0;
   width: 100%;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: var(--blocks-color);
   position: fixed;
 }
 
@@ -31,19 +31,19 @@
 }
 
 .Header a.nav-link {
-  color: rgb(240, 248, 255);
+  color: var(--text-color);
 }
 
 .Header a.nav-link.active {
-  color: rgb(240, 248, 255);
-  border: 1px solid rgb(240, 248, 255);
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
   border-radius: 10px;
 }
 
 .Header .select {
   margin-top: 12px;
   vertical-align: sub;
-  color: white;
+  color: var(--text-color);
   border: none;
   background: transparent;
 }

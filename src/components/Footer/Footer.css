@@ -1,7 +1,7 @@
 .Footer {
   padding: 20px 0 5px;
-  color: rgb(240, 248, 255);
-  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--text-color);
+  background-color: var(--blocks-color);
 }
 
 .Footer .footerMenu {
@@ -9,6 +9,6 @@
 }
 
 .Footer .social-footer {
-  color: rgb(240, 248, 255);
+  color: var(--text-color);
   /* border: 1px solid white; */
 }

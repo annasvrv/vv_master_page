@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Hosting from "./components/Hosting";
-import Services from "./components/Services";
-import Other from "./components/Other";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Hosting from "./components/Hosting/Hosting";
+import Services from "./components/Services/Services";
+import Other from "./components/Errors/Other";
 import "./styles/App.css";
 
 export default function App(props) {
