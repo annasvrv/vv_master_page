@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Hosting from "./components/Hosting/Hosting";
 import Services from "./components/Services/Services";
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 import Other from "./components/Errors/Other";
 import "./styles/App.css";
 
@@ -25,6 +27,9 @@ export default function App(props) {
               <Route exact path="/Hosting" element={<Hosting />} />
               <Route exact path="/Services" element={<Services />} />
               <Route exact path="/Contact" element={<Contact />} />
+              <Route exact path="/Login" element={<Login />} />
+              <Route exact path="/Register" element={<Register />} />
+
               <Route path="*" element={<Other />} />
             </Routes>
           </section>

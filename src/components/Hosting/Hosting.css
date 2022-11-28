@@ -3,3 +3,12 @@
   color: var(--text-color);
   background-color: var(--blocks-color);
 }
+
+.Hosting ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Hosting li {
+  text-align: center;
+}

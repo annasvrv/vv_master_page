@@ -1,0 +1,9 @@
+.Login {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.Login a {
+  /* text-decoration: none; */
+  color: var(--text-color);
+}
