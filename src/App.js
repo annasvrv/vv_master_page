@@ -29,6 +29,7 @@ export default function App(props) {
               <Route exact path="/Contact" element={<Contact />} />
               <Route exact path="/Login" element={<Login />} />
               <Route exact path="/Register" element={<Register />} />
+              {/* <Route exact path="/Register2" element={<Register2 />} /> */}
 
               <Route path="*" element={<Other />} />
             </Routes>

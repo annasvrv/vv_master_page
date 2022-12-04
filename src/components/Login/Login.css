@@ -1,9 +1,29 @@
 .Login {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px 50px;
   color: var(--text-color);
   text-align: center;
+  border: 0.1px solid rgba(240, 248, 255, 0.6);
+  border-radius: 25px;
+  /* background-color: rgba(240, 248, 255, 0.3); */
+  background-color: var(--blocks-color);
+  opacity: 0.9;
+}
+
+.Login .field {
+  text-align: left;
+}
+
+.Login .form-text {
+  color: rgba(240, 248, 255, 0.7);
+  text-align: left;
+}
+
+.Login .form-check {
+  text-align: left;
 }
 
 .Login a {
-  /* text-decoration: none; */
   color: var(--text-color);
 }

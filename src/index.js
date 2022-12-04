@@ -15,6 +15,7 @@ let menu = {
   Contact: "/Contact",
   Login: "/Login",
   Register: "/Register",
+  // Register2: "/Register2",
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

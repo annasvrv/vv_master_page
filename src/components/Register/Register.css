@@ -1,6 +1,81 @@
 .Register {
+  margin: 0 auto;
+  max-width: 500px;
+  /* min-height: 100vh; */
+  padding: 20px 50px;
+  color: var(--text-color);
   text-align: center;
+  border: 0.1px solid rgba(240, 248, 255, 0.6);
+  border-radius: 25px;
+  /* background-color: rgba(240, 248, 255, 0.3); */
+  background-color: var(--blocks-color);
+  opacity: 0.9;
+}
+
+.Register .field {
+  text-align: left;
+}
+
+.Register .form-text {
+  color: rgba(240, 248, 255, 0.7);
+  text-align: left;
+  font-size: 14px;
+}
+
+.Register .form-check {
+  text-align: left;
+}
+
+.Register a {
   color: var(--text-color);
 }
 
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: var(--text-color);
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
 
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.successIcon {
+  font-size: 66px;
+  color: rgb(50, 205, 50);
+  border: 5px solid rgb(50, 205, 50);
+  padding: 15px;
+  border-radius: 50%;
+}
