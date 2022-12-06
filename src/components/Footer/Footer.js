@@ -9,30 +9,58 @@ export default function Footer() {
         <li>
           <span className="footerListHeader">Company</span>
           <ul className="subList">
-            <li>About</li>
-            <li>Contact</li>
-            <li>Terms of Service</li>
-            <li>Site Map</li>
+            <li>
+              <a href="/About">About</a>
+            </li>
+            <li>
+              <a href="/Contact">Contact</a>
+            </li>
+            <li>
+              <a href="/">Terms of Service</a>
+            </li>
+            <li>
+              <a href="/">Site Map</a>
+            </li>
           </ul>
         </li>
         <li>
           <span className="footerListHeader">Products</span>
           <ul className="subList">
-            <li>Shared Hosting</li>
-            <li>WordPress Hosting</li>
-            <li> VPS Hosting</li>
-            <li>Dedicated Hosting</li>
-            <li>Reseller Hosting</li>
-            <li>Hosting Features</li>
+            <li>
+              <a href="/Hosting">Shared Hosting</a>
+            </li>
+            <li>
+              <a href="/Hosting">WordPress Hosting</a>
+            </li>
+            <li>
+              <a href="/Hosting">VPS Hosting</a>
+            </li>
+            <li>
+              <a href="/Hosting">Dedicated Hosting</a>
+            </li>
+            <li>
+              <a href="/Hosting">Reseller Hosting</a>
+            </li>
+            <li>
+              <a href="/Hosting">Hosting Features</a>
+            </li>
           </ul>
         </li>
         <li>
           <span className="footerListHeader">Services</span>
           <ul className="subList">
-            <li>Hosting Solutions</li>
-            <li>Domains</li>
-            <li>SSL Sertificates</li>
-            <li>Software Development</li>
+            <li>
+              <a href="/Services">Hosting Solutions</a>
+            </li>
+            <li>
+              <a href="/Services">Domains</a>
+            </li>
+            <li>
+              <a href="/Services">SSL Sertificates</a>
+            </li>
+            <li>
+              <a href="/Services">Software Development</a>
+            </li>
           </ul>
         </li>
       </ul>

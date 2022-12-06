@@ -22,6 +22,16 @@
   color: rgba(240, 248, 255, 0.7);
 }
 
+.Footer a {
+  color: rgba(240, 248, 255, 0.7);
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: rgba(240, 248, 255, 0.7);
+  text-decoration: underline;
+}
+
 .Footer .social-footer {
   color: var(--text-color);
   /* border: 1px solid white; */
